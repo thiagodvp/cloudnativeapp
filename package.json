@@ -4,7 +4,8 @@
   "description": "This project is a example of cloud native practices...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/thiagodvp/cloudnativeapp/issues"
   },
-  "homepage": "https://github.com/thiagodvp/cloudnativeapp#readme"
+  "homepage": "https://github.com/thiagodvp/cloudnativeapp#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.0.0",
+    "husky": "^8.0.0"
+  }
 }
