@@ -12,8 +12,8 @@
         "jest": true
     },
 
-    "extends": ["eslint:recommended", "plugin:prettier/recommended"],
-    //"extends": ["eslint:recommended"],
+    //"extends": ["eslint:recommended", "plugin:prettier/recommended"],
+    "extends": ["eslint:recommended"],
 
     "rules": {
         "semi": ["error", "always"],
